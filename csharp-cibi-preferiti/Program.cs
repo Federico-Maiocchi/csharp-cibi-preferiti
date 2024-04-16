@@ -27,7 +27,7 @@
             //-La vostra classifica(dunque stampare l’intero array in ordine indicando la posizione in classifica)
             for (int i = 0; i < cibiPreferiti.Length; i++)
             {
-                Console.WriteLine("Lista cibi:" + " " + cibiPreferiti[i]);
+                Console.WriteLine("Lista cibi:" + " " + i + " - " + cibiPreferiti[i]);
             }
 
             //-Il vostro cibo top(prima posizione della classifica)
